@@ -1,5 +1,3 @@
-//Without using any temporary variable, swap two numbers.
-
 
 public class Q1 {
     public static void main(String[] args) {
