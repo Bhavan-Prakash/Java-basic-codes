@@ -1,0 +1,11 @@
+Create an abstract class Vehicle with:
+
+Abstract methods: start(), stop()
+
+Non-abstract method: fuelType() that prints the fuel type.
+
+Then create 3 subclasses:
+Car, Bike, and ElectricScooter that implement the abstract methods differently.
+Write a main class that stores all vehicles in an array and calls their methods using a loop.
+
+Goal: Practice abstract class, method overriding, and polymorphic calls.
