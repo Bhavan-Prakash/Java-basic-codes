@@ -1,0 +1,39 @@
+Scenario:
+
+You’re designing a Smart Home System that controls different types of devices.
+
+Requirements:
+
+Create an interface Connectable with methods:
+
+connectToWiFi(String networkName)
+
+disconnect()
+
+Create an abstract class SmartDevice with:
+
+Fields: deviceName, status (ON/OFF)
+
+Concrete method: turnOn() and turnOff() that change status
+
+Abstract method: showDeviceInfo()
+
+Create subclasses:
+
+SmartLight
+
+SmartThermostat
+
+Each should:
+
+Implement Connectable
+
+Override showDeviceInfo() to print device details.
+
+In the main() method:
+
+Create a list of SmartDevice objects (both lights and thermostats)
+
+Turn them on, connect to Wi-Fi, and display info using a loop.
+
+🧠 Goal: Practice combining abstract classes + interfaces + polymorphism + real-world structure.
