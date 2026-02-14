@@ -1,0 +1,14 @@
+Create a base class Payment with a method processPayment().
+
+Then create subclasses:
+
+CreditCardPayment
+
+PayPalPayment
+
+UPIPayment
+
+Each class should override processPayment() differently.
+In your main method, store all in a list of type Payment and iterate to call processPayment() polymorphically.
+
+Bonus: Ask the user which payment type they want and call the correct subclass dynamically.

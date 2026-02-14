@@ -1,0 +1,14 @@
+Create a base class Employee with fields:
+
+name, id, salary
+and a method calculateBonus() that returns 10% of salary.
+
+Then make subclasses:
+
+Manager → bonus = 20%
+
+Developer → bonus = 15%
+
+In main(), create an array of employees (mix of Manager and Developer) and print their bonus using runtime polymorphism.
+
+Goal: Understand method overriding and polymorphic arrays.

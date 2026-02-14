@@ -1,0 +1,32 @@
+College System (Person–Student–Teacher)
+
+Problem Statement:
+Create a Java program to represent a college system using hierarchical inheritance.
+
+Create a base class Person with:
+
+variables name and age
+
+a constructor to initialize them
+
+a method getDetails() that prints basic details
+
+Create a subclass Student that extends Person:
+
+additional variable rollNo
+
+override getDetails() to display student details
+
+Create another subclass Teacher that extends Person:
+
+additional variable subject
+
+override getDetails() to display teacher details
+
+In the main() method:
+
+create objects of Student and Teacher
+
+call getDetails() for both objects
+
+Concepts tested: hierarchical inheritance, method overriding, use of super.

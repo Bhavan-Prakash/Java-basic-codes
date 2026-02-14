@@ -1,0 +1,9 @@
+Create a class hierarchy:
+
+* Employee (base)
+
+* Developer and Manager (derived)
+
+* Each overrides calculateSalary().
+
+In main(), store objects in an Employee[] and call the method polymorphically.

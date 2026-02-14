@@ -1,0 +1,17 @@
+Create a class BankAccount that:
+
+Has private fields: accountNumber, balance, and password
+
+Allows deposit and withdraw only through getter/setter methods
+
+Uses validation (e.g., password check before withdrawal)
+
+In the main class:
+
+Create an account
+
+Try to withdraw and deposit money
+
+Print balance after every transaction
+
+Goal: Practice access modifiers, getters/setters, and security logic with encapsulation.

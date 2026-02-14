@@ -1,0 +1,25 @@
+Create a Java program to demonstrate inheritance and method overriding using an employee management system.
+
+Create a class Employee with:
+
+instance variables: name (String) and salary (double)
+
+a constructor to initialize these variables
+
+a method getSalary() that returns the employee’s salary
+
+Create a subclass Manager that extends Employee with:
+
+an additional variable bonus (double)
+
+a constructor that initializes name, salary, and bonus
+
+override the getSalary() method to return salary + bonus
+
+In the main() method:
+
+create a Manager object
+
+display the employee name and total salary
+
+Concepts tested: inheritance, constructor chaining, method overriding, super keyword.

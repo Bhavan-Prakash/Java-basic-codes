@@ -1,0 +1,34 @@
+Shape Area Calculation (Runtime Polymorphism)
+
+Problem Statement:
+Write a Java program to demonstrate method overriding and runtime polymorphism using shapes.
+
+Create a parent class Shape with:
+
+a method area() that returns 0
+
+Create a subclass Rectangle with:
+
+variables length and breadth
+
+constructor to initialize these values
+
+override area() to return the area of the rectangle
+
+Create another subclass Circle with:
+
+variable radius
+
+constructor to initialize the radius
+
+override area() to return the area of the circle
+
+In the main() method:
+
+create objects of Rectangle and Circle
+
+store them using a Shape reference
+
+print the area of each shape
+
+Concepts tested: method overriding, runtime polymorphism, inheritance.

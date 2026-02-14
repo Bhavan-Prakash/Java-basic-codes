@@ -1,0 +1,3 @@
+Create a class Rectangle with private fields length and breadth.
+Add getter/setter methods and a method area() to calculate area.
+Use encapsulation properly.
